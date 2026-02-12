@@ -1,0 +1,25 @@
+Id#1
+Name#Notbook
+Price#49.99
+Quantity#3
+
+Id#2
+Name#Pen
+Price#1.5
+Quantity#4
+
+Id#3
+Name#BackPack
+Price#79.80
+Quantity#6
+
+Id#4
+Name#Water Bottel
+Price#12.99
+Quantity#5
+
+Id#5
+Name#USB-C Cable
+Price#9.49
+Quantity#2
+
