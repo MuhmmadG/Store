@@ -1,0 +1,14 @@
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\bin\Debug\net10.0\myStructure.exe
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\bin\Debug\net10.0\myStructure.deps.json
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\bin\Debug\net10.0\myStructure.runtimeconfig.json
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\bin\Debug\net10.0\myStructure.dll
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\bin\Debug\net10.0\myStructure.pdb
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.AssemblyInfoInputs.cache
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.AssemblyInfo.cs
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.csproj.CoreCompileInputs.cache
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.dll
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\refint\myStructure.dll
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.pdb
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\myStructure.genruntimeconfig.cache
+C:\Users\Muhmmad Gamal\source\repos\myStructure\myStructure\obj\Debug\net10.0\ref\myStructure.dll

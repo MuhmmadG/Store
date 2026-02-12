@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s6ezyrgyhgo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\myStructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhmmad Gamal\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}

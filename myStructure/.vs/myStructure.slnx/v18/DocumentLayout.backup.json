@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|c:\\users\\muhmmad gamal\\source\\repos\\mystructure\\mystructure\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|solutionrelative:mystructure\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|c:\\users\\muhmmad gamal\\source\\repos\\mystructure\\mystructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|solutionrelative:mystructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|c:\\users\\muhmmad gamal\\source\\repos\\mystructure\\mystructure\\interfaces\\iequalitycomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|solutionrelative:mystructure\\interfaces\\iequalitycomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|c:\\users\\muhmmad gamal\\source\\repos\\mystructure\\mystructure\\interfaces\\icomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C40DDA5-C716-B160-3645-D35FDFEBF401}|myStructure\\myStructure.csproj|solutionrelative:mystructure\\interfaces\\icomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 280,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEqualityComparer.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\interfaces\\IEqualityComparer.cs",
+              "RelativeDocumentMoniker": "myStructure\\interfaces\\IEqualityComparer.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\interfaces\\IEqualityComparer.cs",
+              "RelativeToolTip": "myStructure\\interfaces\\IEqualityComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T13:52:57.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyList.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\MyList.cs",
+              "RelativeDocumentMoniker": "myStructure\\MyList.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\MyList.cs*",
+              "RelativeToolTip": "myStructure\\MyList.cs*",
+              "ViewState": "AgIAAGsAAAAAAAAAAIAwwHMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T11:02:26.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\Program.cs",
+              "RelativeDocumentMoniker": "myStructure\\Program.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\Program.cs",
+              "RelativeToolTip": "myStructure\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T11:01:59.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IComparer.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\interfaces\\IComparer.cs",
+              "RelativeDocumentMoniker": "myStructure\\interfaces\\IComparer.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\myStructure\\myStructure\\interfaces\\IComparer.cs",
+              "RelativeToolTip": "myStructure\\interfaces\\IComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T13:00:39.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 23,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
