@@ -1,0 +1,12 @@
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\bin\Release\net10.0\SparePartsWarehouse.CORE.deps.json
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\bin\Release\net10.0\SparePartsWarehouse.CORE.dll
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\bin\Release\net10.0\SparePartsWarehouse.CORE.pdb
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.csproj.AssemblyReference.cache
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.AssemblyInfoInputs.cache
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.AssemblyInfo.cs
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.dll
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\refint\SparePartsWarehouse.CORE.dll
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\SparePartsWarehouse.CORE.pdb
+C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\CORE\obj\Release\net10.0\ref\SparePartsWarehouse.CORE.dll

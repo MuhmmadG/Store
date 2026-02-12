@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="SparePartsWarehouse.UI.Views.MachineSpareTotalCostView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FlowDirection="RightToLeft"
+        >
+
+    <Grid Margin="10">
+        <StackPanel>
+
+            <!-- Filters -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <ComboBox Width="200"
+                          ItemsSource="{Binding Departments}"
+                          SelectedItem="{Binding SelectedDepartment}"
+                          DisplayMemberPath="Name"/>
+
+                <ComboBox Width="200" Margin="10,0,0,0"
+                          ItemsSource="{Binding Machines}"
+                          SelectedItem="{Binding SelectedMachine}"
+                          DisplayMemberPath="MachineName"/>
+
+                <TextBlock Text="من:" Margin="10,0,0,0"/>
+                <DatePicker SelectedDate="{Binding FromDate}" Width="120"/>
+
+                <TextBlock Text="إلى:" Margin="10,0,0,0"/>
+                <DatePicker SelectedDate="{Binding ToDate}" Width="120"/>
+
+                <Button Content="بحث"
+                        Margin="10,0,0,0"
+                        Command="{Binding SearchCommand}"/>
+            </StackPanel>
+
+            <!-- Data -->
+            <DataGrid ItemsSource="{Binding Items}"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="القسم" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding FactoryDepartmentName}" Width="*"/>
+                    <DataGridTextColumn Header="الماكينة" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding MachineName}" Width="*"/>
+                    <DataGridTextColumn Header="إجمالي الكمية" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding TotalQuantity}" Width="*"/>
+                    <DataGridTextColumn Header="إجمالي التكلفة" ElementStyle="{StaticResource CenterCellText}"
+                                        Binding="{Binding TotalCost, StringFormat=N2}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

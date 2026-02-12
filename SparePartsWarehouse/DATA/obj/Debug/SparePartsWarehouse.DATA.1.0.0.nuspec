@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SparePartsWarehouse.DATA</id>
+    <version>1.0.0</version>
+    <authors>SparePartsWarehouse.DATA</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="SparePartsWarehouse.CORE" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Muhmmad Gamal\source\repos\SparePartsWarehouse\DATA\bin\Debug\net10.0\SparePartsWarehouse.DATA.dll" target="lib\net10.0\SparePartsWarehouse.DATA.dll" />
+  </files>
+</package>

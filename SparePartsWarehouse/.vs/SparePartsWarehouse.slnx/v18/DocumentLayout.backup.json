@@ -1,0 +1,922 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\stockoutservice\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\stockoutservice\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\stockoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\stockoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\viewwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\viewwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8733A8C1-78A6-3845-5185-0E9238C359BA}|CORE\\SparePartsWarehouse.CORE.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\core\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8733A8C1-78A6-3845-5185-0E9238C359BA}|CORE\\SparePartsWarehouse.CORE.csproj|solutionrelative:core\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\stockbalanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\stockbalanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\purchaseinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\purchaseinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\stockoutitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\stockoutitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\purchaseindetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\purchaseindetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\migrations\\20260127130916_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\migrations\\20260127130916_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\factorydepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\factorydepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\machineconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\machineconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\storedepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\storedepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\supplierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\supplierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\stockoutconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\stockoutconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\purchaseindetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\purchaseindetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\documenteditslogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\documenteditslogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\migrations\\20260125130346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\migrations\\20260125130346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\itemdescriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\itemdescriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\configrations\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\configrations\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\editstockoutquantityview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\editstockoutquantityview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\sparepartswarehouse.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\sparepartswarehouse.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\editpurchaseitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\editpurchaseitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\stockbalanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\stockbalanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\purchaseindetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\purchaseindetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\machinesparetotalcostview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\machinesparetotalcostview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\machinesparepartscostview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\machinesparepartscostview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\machinesparepartscostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\machinesparepartscostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\themes\\controls.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\themes\\controls.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\itemmovementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\itemmovementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\purchaseindetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\purchaseindetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\machinesparetotalcostview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\machinesparetotalcostview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\machinesparepartscostview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\machinesparepartscostview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\editstockoutquantityview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\editstockoutquantityview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\editpurchaseitemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\editpurchaseitemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\stockoutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\stockoutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\stockbalanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\stockbalanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\itemmovementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\itemmovementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\data\\service\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFADF20-C402-530B-D12C-BF7394D3E3B7}|DATA\\SparePartsWarehouse.DATA.csproj|solutionrelative:data\\service\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\pdf\\machinesparepartscostpdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\pdf\\machinesparepartscostpdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\viewmodels\\machinesparetotalcostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\viewmodels\\machinesparetotalcostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\pdf\\stockbalancepdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\pdf\\stockbalancepdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|c:\\users\\muhmmad gamal\\source\\repos\\sparepartswarehouse\\ui\\themes\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89A6B215-3125-EBC3-7434-9ED517A46C91}|UI\\SparePartsWarehouse.UI.csproj|solutionrelative:ui\\themes\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 197,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 280,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockOut.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\CORE\\Entities\\StockOut.cs",
+              "RelativeDocumentMoniker": "CORE\\Entities\\StockOut.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\CORE\\Entities\\StockOut.cs",
+              "RelativeToolTip": "CORE\\Entities\\StockOut.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:21:14.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockOutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockOutViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\StockOutViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockOutViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\StockOutViewModel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAEwHEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T21:13:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewWindowModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\ViewWindowModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\ViewWindowModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\ViewWindowModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\ViewWindowModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:06:58.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockOutService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\StockOutService\\StockOutService.cs",
+              "RelativeDocumentMoniker": "DATA\\StockOutService\\StockOutService.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\StockOutService\\StockOutService.cs",
+              "RelativeToolTip": "DATA\\StockOutService\\StockOutService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:20:39.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T11:31:40.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockOutItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockOutItemVM.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\StockOutItemVM.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockOutItemVM.cs",
+              "RelativeToolTip": "UI\\ViewModels\\StockOutItemVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:09:49.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseInViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\PurchaseInViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\PurchaseInViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\PurchaseInViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\PurchaseInViewModel.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAwPMBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T06:19:09.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StockBalanceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockBalanceViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\StockBalanceViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\StockBalanceViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\StockBalanceViewModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:18:53.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PurchaseInDetailVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\PurchaseInDetailVM.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\PurchaseInDetailVM.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\PurchaseInDetailVM.cs",
+              "RelativeToolTip": "UI\\ViewModels\\PurchaseInDetailVM.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:12:01.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:58:39.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260127130916_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Migrations\\20260127130916_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "DATA\\Migrations\\20260127130916_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Migrations\\20260127130916_InitialCreate2.cs",
+              "RelativeToolTip": "DATA\\Migrations\\20260127130916_InitialCreate2.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T13:09:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MachineConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\MachineConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\MachineConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\MachineConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\MachineConfiguration.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAzwEcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T12:00:02.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FactoryDepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\FactoryDepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\FactoryDepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\FactoryDepartmentConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\FactoryDepartmentConfiguration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:58:55.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StoreDepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\StoreDepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\StoreDepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\StoreDepartmentConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\StoreDepartmentConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:42:56.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SupplierConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\SupplierConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\SupplierConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\SupplierConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\SupplierConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:56:38.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StockOutConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\StockOutConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\StockOutConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\StockOutConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\StockOutConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:56:36.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PurchaseInDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\PurchaseInDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\PurchaseInDetailConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\PurchaseInDetailConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\PurchaseInDetailConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:56:31.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DocumentEditsLogConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\DocumentEditsLogConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\DocumentEditsLogConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\DocumentEditsLogConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\DocumentEditsLogConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:58:47.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\ViewWindow.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewWindow.xaml",
+              "RelativeToolTip": "UI\\ViewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T22:36:55.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260125130346_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Migrations\\20260125130346_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DATA\\Migrations\\20260125130346_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Migrations\\20260125130346_InitialCreate.cs",
+              "RelativeToolTip": "DATA\\Migrations\\20260125130346_InitialCreate.cs",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAswLUBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T13:03:55.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\appsettings.json",
+              "RelativeDocumentMoniker": "DATA\\appsettings.json",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\appsettings.json",
+              "RelativeToolTip": "DATA\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-25T13:59:10.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ItemDescriptionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\ItemDescriptionConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\ItemDescriptionConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\ItemDescriptionConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\ItemDescriptionConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:59:49.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\ItemConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configrations\\ItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Configrations\\ItemConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configrations\\ItemConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:59:45.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditStockOutQuantityView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditStockOutQuantityView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\EditStockOutQuantityView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditStockOutQuantityView.xaml",
+              "RelativeToolTip": "UI\\Views\\EditStockOutQuantityView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-23T12:17:30.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SparePartsWarehouse.UI.csproj",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\SparePartsWarehouse.UI.csproj",
+              "RelativeDocumentMoniker": "UI\\SparePartsWarehouse.UI.csproj",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\SparePartsWarehouse.UI.csproj",
+              "RelativeToolTip": "UI\\SparePartsWarehouse.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-22T05:37:23.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditPurchaseItemView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditPurchaseItemView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\EditPurchaseItemView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditPurchaseItemView.xaml",
+              "RelativeToolTip": "UI\\Views\\EditPurchaseItemView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-23T12:17:31.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockBalanceView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockBalanceView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\StockBalanceView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockBalanceView.xaml",
+              "RelativeToolTip": "UI\\Views\\StockBalanceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T13:38:24.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PurchaseInDetailView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\PurchaseInDetailView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\PurchaseInDetailView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\PurchaseInDetailView.xaml",
+              "RelativeToolTip": "UI\\Views\\PurchaseInDetailView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T10:14:38.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MachineSpareTotalCostView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSpareTotalCostView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\MachineSpareTotalCostView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSpareTotalCostView.xaml",
+              "RelativeToolTip": "UI\\Views\\MachineSpareTotalCostView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T14:14:58.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MachineSparePartsCostView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSparePartsCostView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\MachineSparePartsCostView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSparePartsCostView.xaml",
+              "RelativeToolTip": "UI\\Views\\MachineSparePartsCostView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T10:06:06.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MachineSparePartsCostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\MachineSparePartsCostViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\MachineSparePartsCostViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\MachineSparePartsCostViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\MachineSparePartsCostViewModel.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAMwGsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:01:05.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "UI\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T22:02:13.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Controls.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Themes\\Controls.xaml",
+              "RelativeDocumentMoniker": "UI\\Themes\\Controls.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Themes\\Controls.xaml",
+              "RelativeToolTip": "UI\\Themes\\Controls.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T13:03:00.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ItemMovementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\ItemMovementView.xaml",
+              "RelativeDocumentMoniker": "UI\\Views\\ItemMovementView.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\ItemMovementView.xaml",
+              "RelativeToolTip": "UI\\Views\\ItemMovementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T06:41:46.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PurchaseInDetailView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\PurchaseInDetailView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\PurchaseInDetailView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\PurchaseInDetailView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\PurchaseInDetailView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:52:29.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MachineSpareTotalCostView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSpareTotalCostView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\MachineSpareTotalCostView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSpareTotalCostView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\MachineSpareTotalCostView.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:42:59.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MachineSparePartsCostView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSparePartsCostView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\MachineSparePartsCostView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\MachineSparePartsCostView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\MachineSparePartsCostView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:37:31.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EditStockOutQuantityView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditStockOutQuantityView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\EditStockOutQuantityView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditStockOutQuantityView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\EditStockOutQuantityView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:27:56.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:06:23.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "StockOutView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockOutView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\StockOutView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockOutView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\StockOutView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:32:11.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EditPurchaseItemView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditPurchaseItemView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\EditPurchaseItemView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\EditPurchaseItemView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\EditPurchaseItemView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:24:13.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\AppHost.cs",
+              "RelativeDocumentMoniker": "UI\\AppHost.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\AppHost.cs",
+              "RelativeToolTip": "UI\\AppHost.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:05:07.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "UI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\AssemblyInfo.cs",
+              "RelativeToolTip": "UI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T06:10:35.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\App.xaml.cs",
+              "RelativeToolTip": "UI\\App.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:02:38.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StockBalanceView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockBalanceView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\StockBalanceView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\StockBalanceView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\StockBalanceView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T23:09:31.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:03:56.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ViewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\ViewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewWindow.xaml.cs",
+              "RelativeToolTip": "UI\\ViewWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:42:44.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ItemMovementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\ItemMovementView.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Views\\ItemMovementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Views\\ItemMovementView.xaml.cs",
+              "RelativeToolTip": "UI\\Views\\ItemMovementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T23:06:24.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\App.xaml",
+              "RelativeDocumentMoniker": "UI\\App.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\App.xaml",
+              "RelativeToolTip": "UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T07:19:39.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LookupService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Service\\LookupService.cs",
+              "RelativeDocumentMoniker": "DATA\\Service\\LookupService.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\DATA\\Service\\LookupService.cs",
+              "RelativeToolTip": "DATA\\Service\\LookupService.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T21:08:00.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MachineSparePartsCostPdfDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\PDF\\MachineSparePartsCostPdfDocument.cs",
+              "RelativeDocumentMoniker": "UI\\PDF\\MachineSparePartsCostPdfDocument.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\PDF\\MachineSparePartsCostPdfDocument.cs",
+              "RelativeToolTip": "UI\\PDF\\MachineSparePartsCostPdfDocument.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:06:26.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MachineSpareTotalCostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\MachineSpareTotalCostViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\MachineSpareTotalCostViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\ViewModels\\MachineSpareTotalCostViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\MachineSpareTotalCostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:27:33.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "StockBalancePdfDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\PDF\\StockBalancePdfDocument.cs",
+              "RelativeDocumentMoniker": "UI\\PDF\\StockBalancePdfDocument.cs",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\PDF\\StockBalancePdfDocument.cs",
+              "RelativeToolTip": "UI\\PDF\\StockBalancePdfDocument.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:29:00.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Themes\\Colors.xaml",
+              "RelativeDocumentMoniker": "UI\\Themes\\Colors.xaml",
+              "ToolTip": "C:\\Users\\Muhmmad Gamal\\source\\repos\\SparePartsWarehouse\\UI\\Themes\\Colors.xaml",
+              "RelativeToolTip": "UI\\Themes\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T12:58:01.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 23,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 66,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

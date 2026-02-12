@@ -1,0 +1,183 @@
+﻿<UserControl x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:vm="clr-namespace:SparePartsWarehouse.UI.ViewModels"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Width="900"
+        FlowDirection="RightToLeft">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- بيانات الفاتورة -->
+            <RowDefinition Height="Auto"/>
+            <!-- بيانات الصنف -->
+            <RowDefinition Height="*"/>
+            <!-- DataGrid -->
+            <RowDefinition Height="Auto"/>
+            <!-- الإجمالي -->
+            <RowDefinition Height="Auto"/>
+            <!-- الأزرار -->
+        </Grid.RowDefinitions>
+
+        <!-- ================= بيانات الفاتورة ================= -->
+        <GroupBox Header="بيانات الفاتورة" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- تاريخ -->
+                <TextBlock Text="تاريخ الفاتورة:" Grid.Row="0" Grid.Column="0"/>
+                <DatePicker Grid.Row="0" Grid.Column="1"
+                            SelectedDate="{Binding Date,
+                               Mode=TwoWay,
+                               UpdateSourceTrigger=PropertyChanged}"
+                SelectedDateFormat="Short"/>
+                          
+
+                <!-- رقم الفاتورة -->
+                <TextBlock Text="رقم الفاتورة:" Grid.Row="0" Grid.Column="3"/>
+                <TextBox Grid.Row="0" Grid.Column="4"
+                         Text="{Binding NumberInvoice, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <!-- المورد -->
+                <TextBlock Text="المورد:" Grid.Row="1" Grid.Column="0"/>
+                <ComboBox Grid.Row="1" Grid.Column="1"
+                          ItemsSource="{Binding Suppliers}"
+                          DisplayMemberPath="SupplierName"
+                          SelectedItem="{Binding SelectedSupplier}"
+                          Text="{Binding SupplierName, UpdateSourceTrigger=PropertyChanged}"
+                          IsEditable="True"/>
+
+                <!-- القسم -->
+                <TextBlock Text="القسم:" Grid.Row="1" Grid.Column="3"/>
+                <ComboBox Grid.Row="1" Grid.Column="4"
+                          ItemsSource="{Binding StoreDepartments}"
+                          DisplayMemberPath="Name"
+                          SelectedItem="{Binding SelectedDepartment}"
+                          Text="{Binding DepartmentName, UpdateSourceTrigger=PropertyChanged}"
+                          IsEditable="True"/>
+
+                <!-- المندوب -->
+                <TextBlock Text="المندوب:" Grid.Row="2" Grid.Column="0"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                          Text="{Binding PurchasedBy, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <!-- المستلم -->
+                <TextBlock Text="المستلم:" Grid.Row="2" Grid.Column="3"/>
+                <TextBox Grid.Row="2" Grid.Column="4"
+                         Text="{Binding ReceivedBy, UpdateSourceTrigger=PropertyChanged}"/>
+            </Grid>
+        </GroupBox>
+
+        <!-- ================= بيانات الصنف ================= -->
+        <GroupBox Header="بيانات الصنف" Padding="10" Grid.Row="1" Margin="0,10,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- الفئة -->
+                <TextBlock Text="الفئة:" Grid.Row="0" Grid.Column="0"/>
+                <ComboBox Grid.Row="0" Grid.Column="1"
+                          ItemsSource="{Binding Categories}"
+                          DisplayMemberPath="Name"
+                          SelectedItem="{Binding SelectedCategory}"
+                          Text="{Binding CategoryName, UpdateSourceTrigger=PropertyChanged}"
+                          IsEditable="True"/>
+
+                <!-- الصنف -->
+                <TextBlock Text="الصنف:" Grid.Row="0" Grid.Column="3"/>
+                <ComboBox Grid.Row="0" Grid.Column="4"
+                          ItemsSource="{Binding Items}"
+                          DisplayMemberPath="ItemName"
+                          SelectedItem="{Binding SelectedItem}"
+                           Text="{Binding ItemName, UpdateSourceTrigger=PropertyChanged}"
+                          IsEditable="True"/>
+
+                <!-- الوصف -->
+                <TextBlock Text="الوصف:" Grid.Row="1" Grid.Column="0"/>
+                <ComboBox Grid.Row="1" Grid.Column="1"
+                          ItemsSource="{Binding ItemDescriptions}"
+                          SelectedItem="{Binding SelectedDescription}"
+                           Text="{Binding ItemCode, UpdateSourceTrigger=PropertyChanged}"
+                          IsEditable="True"/>
+
+                <!-- الكمية -->
+                <TextBlock Text="الكمية:" Grid.Row="2" Grid.Column="0"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                          Text="{Binding InputQuantityText,
+                        UpdateSourceTrigger=PropertyChanged,
+                        ValidatesOnExceptions=True,
+                        NotifyOnValidationError=True}"/>
+
+                <!-- السعر -->
+                <TextBlock Text="سعر الوحدة:" Grid.Row="2" Grid.Column="3"/>
+                <TextBox Grid.Row="2" Grid.Column="4"
+                          Text="{Binding InputUnitPriceText ,
+                        UpdateSourceTrigger=PropertyChanged,
+                        ValidatesOnExceptions=True,
+                        NotifyOnValidationError=True}"/>
+            </Grid>
+        </GroupBox>
+
+        <!-- ================= تفاصيل ================= -->
+        <DataGrid Grid.Row="2"
+                  Margin="0,10"
+                  ItemsSource="{Binding Details}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="الصنف" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding ItemName}" Width="*"/>
+                <DataGridTextColumn Header="الكمية" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding Quantity}" Width="*"/>
+                <DataGridTextColumn Header="السعر" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding UnitPrice}" Width="*"/>
+                <DataGridTextColumn Header="الإجمالي" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding TotalPrice}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- ================= الإجمالي ================= -->
+        <TextBlock Grid.Row="3"
+                   Text="{Binding TotalInvoice}"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Left"
+                   Margin="0,10"/>
+
+        <!-- ================= الأزرار ================= -->
+        <StackPanel Grid.Row="4"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Left"
+                    Margin="0,10">
+            <Button Content="إضافة الصنف"
+                    Width="150"
+                    Margin="0,0,10,0"
+                    Command="{Binding AddDetailCommand}"/>
+
+            <Button Content="حفظ"
+                    Width="120"
+                    Command="{Binding SaveCommand}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="CORE/SparePartsWarehouse.CORE.csproj" />
+  <Project Path="DATA/SparePartsWarehouse.DATA.csproj" />
+  <Project Path="SparePartsERP.Setup/SparePartsERP.Setup.vdproj" Type="Installer">
+    <Build />
+  </Project>
+  <Project Path="UI/SparePartsWarehouse.UI.csproj" />
+</Solution>

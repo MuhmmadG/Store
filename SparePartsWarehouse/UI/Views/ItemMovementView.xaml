@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="SparePartsWarehouse.UI.Views.ItemMovementView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FlowDirection="RightToLeft"
+      >
+
+    <Grid Margin="10">
+        <StackPanel>
+
+            <!-- Filters -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <ComboBox
+    ItemsSource="{Binding Items}"
+    SelectedValue="{Binding SelectedItemId}"
+    SelectedValuePath="Id"
+    DisplayMemberPath="ItemName"
+    Width="250"/>
+
+
+
+
+                <ComboBox
+    ItemsSource="{Binding Descriptions}"
+    SelectedValue="{Binding SelectedDescriptionId}"
+    SelectedValuePath="Id"
+    DisplayMemberPath="ItemCode"
+    Width="250"/>
+            </StackPanel>
+            <!-- Data -->
+            <DataGrid
+    ItemsSource="{Binding Movements}"
+    AutoGenerateColumns="False"
+                  IsReadOnly="True"
+    SelectionMode="Single"
+    SelectionUnit="FullRow"
+    CanUserResizeColumns="True"
+    CanUserReorderColumns="False"
+    HeadersVisibility="Column"
+    ColumnWidth="*">
+
+                <DataGrid.Columns>
+
+                    <!-- التاريخ -->
+                    <DataGridTextColumn
+            Header="التاريخ"
+            MinWidth="120"
+            Width="150"
+            Binding="{Binding Date, StringFormat={}{0:yyyy-MM-dd}}"
+                        ElementStyle="{StaticResource CenterCellText}"/>
+
+                    <!-- الحركة (IN / OUT مع تلوين) -->
+                    <DataGridTextColumn
+    Header="الحركة"
+    MinWidth="80"
+    Width="100"
+    Binding="{Binding MovementType}">
+
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding MovementType}" Value="IN">
+                                        <Setter Property="Foreground" Value="#16A34A"/>
+                                        <!-- أخضر -->
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding MovementType}" Value="OUT">
+                                        <Setter Property="Foreground" Value="#DC2626"/>
+                                        <!-- أحمر -->
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+
+                    </DataGridTextColumn>
+
+
+                    <!-- الفئة -->
+                    <DataGridTextColumn
+            Header="الفئة"
+            MinWidth="120"
+            Width="*"
+            Binding="{Binding CategoryName}"
+                          ElementStyle="{StaticResource CenterCellText}"/>
+
+                    <!-- الصنف -->
+                    <DataGridTextColumn
+            Header="الصنف"
+            MinWidth="150"
+            Width="*"
+            Binding="{Binding ItemName}" 
+                          ElementStyle="{StaticResource CenterCellText}"/>
+
+                    <!-- الوصف -->
+                    <DataGridTextColumn
+            Header="الوصف"
+            MinWidth="150"
+            Width="*"
+            Binding="{Binding ItemCode}" 
+                          ElementStyle="{StaticResource CenterCellText}"/>
+
+                    <!-- الكمية -->
+                    <DataGridTextColumn
+            Header="الكمية"
+            Width="100"
+            MinWidth="80"
+            Binding="{Binding Quantity}" 
+                          ElementStyle="{StaticResource CenterCellText}"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>

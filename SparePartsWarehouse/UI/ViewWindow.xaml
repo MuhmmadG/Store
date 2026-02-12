@@ -1,0 +1,122 @@
+﻿<Window x:Class="SparePartsWarehouse.UI.ViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="قطع الغيار"
+        WindowState="Maximized"
+        Background="#F3F4F6">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ================= Sidebar ================= -->
+        <Border Background="#111827"
+                Padding="10"
+                Grid.Column="0">
+            <StackPanel>
+
+                <!-- Logo / Title -->
+                <TextBlock Text="List"
+                           Foreground="White"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           Margin="10"/>
+
+                <Separator Margin="0,10"/>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowDashboardCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🏠" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="Dashboard" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowStockOutCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="📦" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="صرف مخزن" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowPurchaseInCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🧾" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="وارد" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowStockBalanceCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="📊" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="رصيد المخزن" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowIEditPurchaseItemCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="✏️" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="تعديل فاتورة" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowPurchaseInDetailViewCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🗑" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="حذف فاتورة" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowEditStockOutQuantityCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="⚙️" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="تعديل صنف منصرف" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowMachineSparePartsCostViewCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🛠" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="قطع غيار الماكينات" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowMachineMachineSpareTotalCostViewCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🏭" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="الماكينات" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource SidebarButton}"
+        Command="{Binding ShowItemMovementCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="📈" Style="{StaticResource SidebarText}" Margin="0,0,8,0"/>
+                        <TextBlock Text="حركة الأصناف" Style="{StaticResource SidebarText}"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Border>
+
+        <!-- ================= Content ================= -->
+        <Border Grid.Column="1"
+                Margin="15"
+                Background="White"
+                CornerRadius="10"
+                Padding="15">
+
+            <ContentControl Content="{Binding CurrentView}"/>
+
+        </Border>
+    </Grid>
+</Window>

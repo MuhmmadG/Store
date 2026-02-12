@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="SparePartsWarehouse.UI.Views.EditPurchaseItemView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       
+        FlowDirection="RightToLeft">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- المورد -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+            <TextBlock Text="المورد" FontWeight="Bold"/>
+            <ComboBox ItemsSource="{Binding Suppliers}"
+                      SelectedItem="{Binding SelectedSupplier}"
+                      DisplayMemberPath="SupplierName"
+                      Height="30"/>
+        </StackPanel>
+
+        <!-- الفاتورة -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock Text="الفاتورة" FontWeight="Bold"/>
+            <ComboBox ItemsSource="{Binding Invoices}"
+                      SelectedItem="{Binding SelectedInvoice}"
+                      DisplayMemberPath="DisplayName"
+                      Height="30"/>
+        </StackPanel>
+
+        <!-- الأصناف -->
+        <GroupBox Grid.Row="2" Header="الأصناف">
+            <DataGrid ItemsSource="{Binding Items}"
+                      SelectedItem="{Binding SelectedItem}"
+                      AutoGenerateColumns="False"
+                      Height="150"
+                      CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="الصنف" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding ItemName}" Width="*"/>
+                    <DataGridTextColumn Header="الكمية" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding Quantity}" Width="*"/>
+                    <DataGridTextColumn Header="السعر" ElementStyle="{StaticResource CenterCellText}" Binding="{Binding UnitPrice}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+
+        <!-- التعديل -->
+        <StackPanel Grid.Row="3" Margin="0,10,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="الكمية الجديدة"/>
+                    <TextBox Text="{Binding NewQuantity}" Height="28"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                    <TextBlock Text="السعر الجديد"/>
+                    <TextBox Text="{Binding NewUnitPrice}" Height="28"/>
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="سبب التعديل" Margin="0,8,0,0"/>
+            <TextBox Text="{Binding Reason}" Height="60"/>
+
+            <Button Content="تنفيذ التعديل"
+                    Command="{Binding EditCommand}"
+                    Height="35"
+                    Margin="0,10,0,0"
+                    Background="#007ACC"
+                    Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

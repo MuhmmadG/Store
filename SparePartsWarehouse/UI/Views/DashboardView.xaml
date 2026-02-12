@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="SparePartsWarehouse.UI.Views.DashboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <WrapPanel Margin="20">
+
+            <Border Style="{StaticResource DashboardCard}">
+                
+                <StackPanel>
+                    
+                    <TextBlock Text="📦"
+                               
+                               FontSize="28"/>
+                    <TextBlock Text="الصرف"
+                               FontSize="16"
+                               
+                               FontWeight="Bold"
+                               Margin="0,10,0,0"/>
+                   
+                </StackPanel>
+                
+            </Border>
+
+            <Border Style="{StaticResource DashboardCard}">
+                <StackPanel>
+                    <TextBlock Text="📊"
+                               FontSize="28"/>
+                    <TextBlock Text="رصيد المخزن"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource DashboardCard}">
+                <StackPanel>
+                    <TextBlock Text="🧾"
+                               FontSize="28"/>
+                    <TextBlock Text="الوارد"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource DashboardCard}">
+                <StackPanel>
+                    <TextBlock Text="📈"
+                               FontSize="28"/>
+                    <TextBlock Text="التقارير"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+
+        </WrapPanel>
+    </ScrollViewer>
+</UserControl>
